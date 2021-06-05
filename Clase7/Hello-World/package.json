@@ -1,0 +1,14 @@
+{
+    "name": "Hello-World",
+    "version": "1.0.0",
+    "description": "Mi primer aplicacion",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "static-server public"
+    },
+    "author": "",
+    "license": "ISC"
+}

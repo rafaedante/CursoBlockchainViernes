@@ -1,0 +1,14 @@
+{
+    "name": "Simple-Storage",
+    "version": "1.0.0",
+    "description": "Mi segunda aplicacion",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "static-server public"
+    },
+    "author": "",
+    "license": "ISC"
+}
