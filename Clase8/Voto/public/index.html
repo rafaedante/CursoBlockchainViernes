@@ -1,0 +1,63 @@
+<html>
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="bundle.js"></script>
+</head>
+<body class="container">
+
+    <form id="create">
+        <h2>Creacion del candidato</h2>
+        <div class="form-group">
+            <label for="name">Candidato</label>
+            <input id="name" type="text" class="form-control">            
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Crear</button>
+        <p id="create-result"></p>
+    </form>
+    <br>
+
+    <h2>Votacion de Candidato</h2>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Opciones</th>
+                    <th>Votos del candidato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Carolina (1)</td>
+                    <td id="1"></td>
+                </tr>
+                <tr>
+                    <td>Mario (2)</td>
+                    <td id="2"></td>
+                </tr>
+                <tr>
+                    <td>Leonardo (3)</td>
+                    <td id="3"></td>
+                </tr>
+                <tr>
+                    <td>Joaquin (4)</td>
+                    <td id="4"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <form id="votar">        
+        <div class="form-group">
+            <label for="candidato">Candidato (1 al 4)</label>
+            <input id="candidato" type="number" class="form-control">            
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Votar candidato</button>
+        <br>
+        <div>Msj: <span id="mensaje"></span></div>
+    </form>
+    
+</body>
+</html>

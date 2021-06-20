@@ -1,0 +1,70 @@
+<html>
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="bundle.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <form id="create">
+                    <h2>Create User</h2>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" class="form-control">            
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <p id="create-result"></p>
+                </form>
+
+                <hr>
+
+    <form id="read">
+        <h2>Read User</h2>
+        <div class="form-group">
+            <label for="read-id">Id</label>
+            <input id="read-id" type="number" class="form-control">            
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <p id="read-result"></p>
+    </form>
+
+    <hr>
+
+    <form id="edit">
+        <h2>Edit User</h2>
+        <div class="form-group">
+            <label for="edit-id">Id</label>
+            <input id="edit-id" type="number" class="form-control">   
+            <label for="edit-name">Name</label>
+            <input id="edit-name" type="text" class="form-control">          
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <p id="edit-result"></p>
+    </form>
+
+    <hr>
+
+    <form id="delete">
+        <h2>Delete User</h2>
+        <div class="form-group">
+            <label for="delete-id">Id</label>
+            <input id="delete-id" type="number" class="form-control">            
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <p id="delete-result"></p>
+    </form>
+
+            </div>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
